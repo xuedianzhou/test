@@ -48,6 +48,8 @@ public void getSession() throws IOException{
 	public void m2(){
 		Integer[] id = { 8, 9 };
 		int rs = item.del(id);
-		System.out.println("rs:" + rs);
+		System.out.println("rs:" + rs + 123456);
 	}
+	
+	
 }
