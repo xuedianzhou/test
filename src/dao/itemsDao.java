@@ -11,5 +11,5 @@ public interface itemsDao {
 	
 	 public int del(Integer[] ids);
 	 public List<Map<String, Object>> query(Integer id,String item_no);
-
+        
 }
